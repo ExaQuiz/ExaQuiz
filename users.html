@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel - User List</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #333; color: white; }
+    tr:nth-child(even) { background-color: #f2f2f2; }
+    h2 { color: #333; }
+  </style>
+</head>
+<body>
+  <h2>👑 Admin Panel - User Details</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Phone</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Language</th>
+        <th>State</th>
+        <th>League</th>
+        <th>Coins</th>
+        <th>Referral Code</th>
+        <th>Referred By</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="userTable">
+      <!-- User data rows will come here from backend -->
+    </tbody>
+  </table>
+</body>
+</html>
